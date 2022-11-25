@@ -1,0 +1,209 @@
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Michroma';font-size: 22px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.inicio {
+    background-image: url("assets/img/IndexImage.jpg");
+    overflow: hidden;
+    background-color: aqua;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menuNavegacion {
+    justify-content: right;
+    padding-left: 40%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    
+}
+
+#menuNavegacion a {
+    padding-top: 4%;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 500;
+}
+
+#menuNavegacion a:hover {
+    transform: scale(1.2);
+    color: crimson;
+
+}
+
+#tituloPrincipal {
+    padding-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#tituloPrincipal h1 {
+    text-align: center;
+    color: #ffff;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px #ffff;
+}
+
+#destinosVisitadosDropDown {
+    padding-top: 5%;
+    text-align: center;
+}
+
+#contenedorEslogan {
+    padding-right: 5%;
+    margin-right: 3%;
+}
+
+#contenedorEslogan #esloganIndex  {
+    padding-top: 3%;
+    text-align: right;
+    color: #ffff;
+}
+
+.carruselTexto {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.carruselTexto h2 {
+    font-weight: 700;
+    color: crimson;
+    text-shadow: 1px 1px 2px crimson;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.carruselTexto p {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+}
+
+.carrusel {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#inputContainer {
+    padding-top: 4%;
+}
+
+
+#inputContainer h2 {
+    text-align: right;
+    color: crimson;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px crimson;
+}
+
+
+
+.buttonsGroup {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.buttonsGroup button {
+    margin-left: 2%
+}
+
+#NewYork {
+    padding-top: 2%;
+}
+
+#NewYork h5 {
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black;
+}
+
+#NewYork p {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#registro {
+    padding-top: 1%;
+}
+
+#registro h1 {
+    text-align: left;
+    color: crimson;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px crimson;
+}
+
+#formularioRegistro {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.contenedorBotonRegistro {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#Tokio {
+    background-image: url("assets/img/japan2.jpg");
+    opacity: 90%;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Tokio h1{
+    justify-content: right;
+    color: #ffff;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 360%;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #ffff;
+}
+
+#Tokio p {
+    color: #ffff;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+footer {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+}
+
+footer h1 {
+    color: crimson;
+    text-align: center;
+    text-shadow: 1px 1px 2px crimson;
+    font-weight: 700;
+    font-size: 170%;
+}
+
+
+
+
+
+
